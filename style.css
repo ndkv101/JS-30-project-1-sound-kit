@@ -1,0 +1,61 @@
+html {
+    font-size: 10px;
+    background-size: cover;
+    background: url(img/chuttersnap-9G1kXjqOq4U-unsplash.jpg) center;
+    
+  }
+
+body,html {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    
+  }
+
+h1 {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 50px;
+    color: #ffc600;
+  }
+#container {
+    display: flex;
+    flex: 1;
+    min-height: 100vh;
+    justify-content: center;
+}
+
+.animal {
+    border: .4rem solid rgb(202, 155, 27);
+    border-radius: .5rem;
+    margin: 1rem;
+    font-size: 1.5rem;
+    padding: 1rem .5rem;
+    transition: all .07s ease;
+    width: 10rem;
+    height: 10rem;
+    text-align: center;
+    color: white;
+    background-color: rgba(0,0,0,0.7);
+    text-shadow: 0 0 .5rem black;
+    margin-top: 150px;;
+}
+
+.clicking {
+    transform: scale(1.1);
+    border-color: #ffc600;
+    box-shadow: 0 0 1rem #ffc600;
+  }
+
+footer {
+    height: 9rem;
+    background-color: #001;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer {
+    font-size: 2rem;
+}
